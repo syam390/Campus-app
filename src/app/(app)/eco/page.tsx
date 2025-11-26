@@ -20,7 +20,7 @@ export default function EcoPage() {
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-3xl font-bold font-headline tracking-tight">Eco Tracker</h1>
-        <p className="text-muted-foreground">Apna carbon footprint jaano aur campus ko green banao.</p>
+        <p className="text-muted-foreground">Know your carbon footprint and make the campus green.</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
@@ -28,47 +28,47 @@ export default function EcoPage() {
             <Card>
                 <CardHeader>
                     <CardTitle>Carbon Footprint Calculator</CardTitle>
-                    <CardDescription>Apne daily ke kaam-kaaj ki details daalo.</CardDescription>
+                    <CardDescription>Enter details of your daily activities.</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-6">
                     <div className="space-y-2">
-                        <Label className="flex items-center gap-2"><Utensils className="size-4" /> Mess ka Khana</Label>
+                        <Label className="flex items-center gap-2"><Utensils className="size-4" /> Mess Food</Label>
                         <RadioGroup defaultValue="veg" className="flex gap-4">
                             <div className="flex items-center space-x-2">
                                 <RadioGroupItem value="veg" id="veg" />
-                                <Label htmlFor="veg">Veg (Sabji Roti)</Label>
+                                <Label htmlFor="veg">Veg</Label>
                             </div>
                             <div className="flex items-center space-x-2">
                                 <RadioGroupItem value="non-veg" id="non-veg" />
-                                <Label htmlFor="non-veg">Non-Veg (Anda/Chicken)</Label>
+                                <Label htmlFor="non-veg">Non-Veg</Label>
                             </div>
                         </RadioGroup>
                     </div>
 
                      <div className="space-y-2">
-                        <Label className="flex items-center gap-2"><Footprints className="size-4" /> Aaj ka Travel</Label>
+                        <Label className="flex items-center gap-2"><Footprints className="size-4" /> Today's Travel</Label>
                         <div className="grid grid-cols-2 gap-4">
                             <Select>
                                 <SelectTrigger>
-                                    <SelectValue placeholder="Kaise gaye?" />
+                                    <SelectValue placeholder="Mode of travel?" />
                                 </SelectTrigger>
                                 <SelectContent>
-                                    <SelectItem value="walk">Paidal</SelectItem>
+                                    <SelectItem value="walk">Walk</SelectItem>
                                     <SelectItem value="cycle">Cycle</SelectItem>
                                     <SelectItem value="ebike">E-bike</SelectItem>
                                     <SelectItem value="scooter">Scooter/Bike</SelectItem>
                                     <SelectItem value="car">Car</SelectItem>
                                 </SelectContent>
                             </Select>
-                            <Input type="number" placeholder="Kitne km?" />
+                            <Input type="number" placeholder="How many km?" />
                         </div>
                     </div>
-                    <Button className="w-full">Calculate Karein</Button>
+                    <Button className="w-full">Calculate</Button>
                 </CardContent>
             </Card>
              <Card className="bg-accent/50">
                 <CardHeader className="flex flex-row items-center justify-between pb-2">
-                    <CardTitle className="text-lg font-medium">Aapka Score</CardTitle>
+                    <CardTitle className="text-lg font-medium">Your Score</CardTitle>
                     <Leaf className="h-5 w-5 text-primary" />
                 </CardHeader>
                 <CardContent>
@@ -81,7 +81,7 @@ export default function EcoPage() {
         <Card className="lg:col-span-1">
           <CardHeader>
             <CardTitle className="flex items-center gap-2"><Award className="size-5 text-primary" /> Hostel Leaderboard</CardTitle>
-            <CardDescription>Dekho kaunsa hostel sabse eco-friendly hai.</CardDescription>
+            <CardDescription>See which hostel is the most eco-friendly.</CardDescription>
           </CardHeader>
           <CardContent>
             <Table>

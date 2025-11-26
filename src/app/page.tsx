@@ -50,7 +50,7 @@ export default function LoginPage() {
           <Card>
             <CardHeader>
               <CardTitle className="text-2xl">Login</CardTitle>
-              <CardDescription>Apna account access karne ke liye details daalo.</CardDescription>
+              <CardDescription>Enter your details to access your account.</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="grid gap-4">
@@ -62,7 +62,7 @@ export default function LoginPage() {
                   <div className="flex items-center">
                     <Label htmlFor="password">Password</Label>
                     <Link href="#" className="ml-auto inline-block text-sm underline" prefetch={false}>
-                      Password bhool gaye?
+                      Forgot password?
                     </Link>
                   </div>
                   <Input id="password" type="password" required />
@@ -75,15 +75,15 @@ export default function LoginPage() {
                     <span className="w-full border-t" />
                   </div>
                   <div className="relative flex justify-center text-xs uppercase">
-                    <span className="bg-card px-2 text-muted-foreground">YA</span>
+                    <span className="bg-card px-2 text-muted-foreground">OR</span>
                   </div>
                 </div>
                 <Button variant="outline" className="w-full">
                   <GoogleIcon className="mr-2 h-5 w-5" />
-                  Google se Login
+                  Login with Google
                 </Button>
                  <Button variant="secondary" className="w-full">
-                  Phone se login karein (OTP)
+                  Login with Phone (OTP)
                 </Button>
               </div>
             </CardContent>

@@ -29,13 +29,13 @@ export default function PlacementPage() {
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-3xl font-bold font-headline tracking-tight">Placement Prep</h1>
-        <p className="text-muted-foreground">Apna resume sudhaaro aur interview phodo!</p>
+        <p className="text-muted-foreground">Improve your resume and ace the interview!</p>
       </div>
 
       <Card>
         <CardHeader>
           <CardTitle>Resume Analysis</CardTitle>
-          <CardDescription>Apna resume (PDF) upload karo aur AI se feedback paao.</CardDescription>
+          <CardDescription>Upload your resume (PDF) and get AI feedback.</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
             <div className="relative">
@@ -43,7 +43,7 @@ export default function PlacementPage() {
                     <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <Upload className="w-8 h-8 mb-2 text-muted-foreground" />
                         <p className="mb-2 text-sm text-muted-foreground">
-                            <span className="font-semibold">Click to upload</span> ya drag and drop
+                            <span className="font-semibold">Click to upload</span> or drag and drop
                         </p>
                         <p className="text-xs text-muted-foreground">PDF only (MAX. 5MB)</p>
                     </div>
@@ -57,7 +57,7 @@ export default function PlacementPage() {
              </div>
           )}
           <Button onClick={handleAnalyze} disabled={!fileName} className="w-full">
-            {isAnalyzed ? "Dobara Analyze Karein" : "Analyze Karein"}
+            {isAnalyzed ? "Analyze Again" : "Analyze"}
           </Button>
         </CardContent>
       </Card>
@@ -80,33 +80,33 @@ export default function PlacementPage() {
                             <span className="text-center text-3xl font-bold text-foreground">78</span>
                         </div>
                     </div>
-                    <p className="text-sm text-center text-muted-foreground">Badhiya hai! Thoda aur keywords daalo to 90+ ho jayega.</p>
+                    <p className="text-sm text-center text-muted-foreground">Good! Add a few more keywords to get to 90+.</p>
                 </CardContent>
             </Card>
 
             <Card>
                 <CardHeader>
-                    <CardTitle className="flex items-center gap-2"><Flame className="size-5 text-destructive"/> Gemini ka Roast</CardTitle>
+                    <CardTitle className="flex items-center gap-2"><Flame className="size-5 text-destructive"/> Gemini's Roast</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 text-sm">
-                    <p>"Aapke 'Hobbies' section mein 'binge-watching' likha hai. Company ko Netflix ka agla show nahi, agla performer chahiye."</p>
-                    <p>"Skills mein 'MS Paint' likha hai? Bhai, 1998 se aage badho."</p>
+                    <p>"Your 'Hobbies' section says 'binge-watching'. The company wants the next performer, not the next Netflix show."</p>
+                    <p>"'MS Paint' in skills? Bro, move on from 1998."</p>
                 </CardContent>
             </Card>
             
             <Card>
                 <CardHeader>
-                    <CardTitle className="flex items-center gap-2"><BrainCircuit className="size-5 text-accent-foreground"/> Company-Specific Sawaal</CardTitle>
+                    <CardTitle className="flex items-center gap-2"><BrainCircuit className="size-5 text-accent-foreground"/> Company-Specific Questions</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                     <div>
-                        <Label htmlFor="company-name">Company ka Naam</Label>
-                        <Input id="company-name" placeholder="Jaise ki 'Google'" />
+                        <Label htmlFor="company-name">Company Name</Label>
+                        <Input id="company-name" placeholder="e.g. 'Google'" />
                     </div>
                     <Button variant="secondary" className="w-full">Generate Questions</Button>
                     <div className="space-y-3 text-sm pt-2">
-                        <p>1. Aapne apne project mein Python use kiya. Google ke scale par isse kaise handle karoge?</p>
-                        <p>2. "Team player" to likh diya, par jab team mein conflict ho to kya karte ho?</p>
+                        <p>1. You used Python in your project. How would you handle it at Google's scale?</p>
+                        <p>2. You wrote "team player", but what do you do when there's a conflict in the team?</p>
                     </div>
                 </CardContent>
             </Card>

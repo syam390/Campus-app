@@ -40,7 +40,7 @@ const recommendedEvents = [
     time: "10:00 AM",
     location: "CS Dept, Seminar Hall",
     imageId: "event-ai-workshop",
-    reason: "Aapke project submission se related hai.",
+    reason: "Related to your project submission.",
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const recommendedEvents = [
     time: "2:00 PM",
     location: "E-Cell, Main Building",
     imageId: "event-startup-pitch",
-    reason: "Aapke interests se match karta hai.",
+    reason: "Matches your interests.",
   },
 ];
 
@@ -58,18 +58,18 @@ export default function DashboardPage() {
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-3xl font-bold font-headline tracking-tight">Events & Feed</h1>
-        <p className="text-muted-foreground">College mein kya-kya ho raha hai, yahan dekho.</p>
+        <p className="text-muted-foreground">See what's happening in college here.</p>
       </div>
 
       <Tabs defaultValue="for-you">
         <TabsList className="grid w-full grid-cols-2 md:w-[400px]">
           <TabsTrigger value="for-you">
             <Sparkles className="mr-2 size-4" />
-            Aapke Liye
+            For You
           </TabsTrigger>
           <TabsTrigger value="my-calendar">
             <Calendar className="mr-2 size-4" />
-            Mera Calendar
+            My Calendar
           </TabsTrigger>
         </TabsList>
         <TabsContent value="for-you" className="mt-6">

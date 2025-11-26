@@ -18,7 +18,7 @@ export default function AttendancePage() {
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-3xl font-bold font-headline tracking-tight">Attendance</h1>
-        <p className="text-muted-foreground">Apni attendance track karo aur time pe class pahucho.</p>
+        <p className="text-muted-foreground">Track your attendance and be on time for class.</p>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -36,7 +36,7 @@ export default function AttendancePage() {
 
         <Card className="flex flex-col items-center justify-center text-center p-6">
            <CardTitle className="mb-2">Mark Attendance</CardTitle>
-           <CardDescription className="mb-4">Chehra scan karke aaj ki attendance lagao.</CardDescription>
+           <CardDescription className="mb-4">Scan your face to mark today's attendance.</CardDescription>
            <Button onClick={() => setIsDialogOpen(true)} className="w-full">
             <Fingerprint className="mr-2 h-4 w-4" />
             Scan Face
@@ -49,7 +49,7 @@ export default function AttendancePage() {
           <AlertDialogHeader>
             <AlertDialogTitle className="text-center text-2xl font-headline">Face Attendance</AlertDialogTitle>
             <AlertDialogDescription className="text-center">
-              Camera ke saamne dekho aur apni aankhein jhapkao.
+              Look at the camera and blink your eyes.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <div className="flex justify-center my-4 relative">
@@ -77,7 +77,7 @@ export default function AttendancePage() {
         <h2 className="text-2xl font-bold font-headline mb-4">Attendance History</h2>
         <Card>
             <CardContent className="p-6 text-center text-muted-foreground">
-                <p>Jald hi aa raha hai!</p>
+                <p>Coming soon!</p>
             </CardContent>
         </Card>
       </div>
