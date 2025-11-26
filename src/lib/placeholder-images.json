@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "login-bg",
+      "description": "Background image for the login page showing vibrant campus life.",
+      "imageUrl": "https://images.unsplash.com/photo-1635246550194-11af93a2763f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBjb2xsZWdlJTIwc3R1ZGVudHN8ZW58MHx8fHwxNzY0MTU3MzMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian college students"
+    },
+    {
+      "id": "event-tech-fest",
+      "description": "Image for a tech fest event.",
+      "imageUrl": "https://images.unsplash.com/photo-1760386129113-6e20e3b59731?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWNoJTIwZmVzdGl2YWx8ZW58MHx8fHwxNzY0MTU3MzMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech festival"
+    },
+    {
+      "id": "event-sports-day",
+      "description": "Image for a sports day event.",
+      "imageUrl": "https://images.unsplash.com/photo-1538949975769-b518c2ac1f2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2xsZWdlJTIwc3BvcnRzfGVufDB8fHx8MTc2NDE1NzMzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "college sports"
+    },
+    {
+      "id": "event-music-night",
+      "description": "Image for a music night event.",
+      "imageUrl": "https://images.unsplash.com/photo-1506157786151-b8491531f063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtdXNpYyUyMGNvbmNlcnR8ZW58MHx8fHwxNzY0MTQ5NTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music concert"
+    },
+    {
+      "id": "event-ai-workshop",
+      "description": "Image for an AI workshop.",
+      "imageUrl": "https://images.unsplash.com/photo-1643944406742-a5c2c7add564?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxBSSUyMHdvcmtzaG9wfGVufDB8fHx8MTc2NDE1NzMzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI workshop"
+    },
+    {
+      "id": "event-startup-pitch",
+      "description": "Image for a startup pitch competition.",
+      "imageUrl": "https://images.unsplash.com/photo-1590098563575-a82d9dcd7696?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdGFydHVwJTIwcGl0Y2h8ZW58MHx8fHwxNzY0MDk0ODE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "startup pitch"
+    },
+    {
+      "id": "attendance-face",
+      "description": "Placeholder image for face attendance camera view.",
+      "imageUrl": "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBmYWNlfGVufDB8fHx8MTc2NDA3NzYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person face"
+    },
+    {
+      "id": "user-avatar",
+      "description": "Placeholder for user avatar.",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0MDg2Mzc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student portrait"
+    }
+  ]
 }
